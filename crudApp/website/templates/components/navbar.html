@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -24,9 +25,11 @@
           <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'register' %}">Login</a>
+          <a class="nav-link" href="{% url 'register' %}">Sign Up/Login in</a>
         </li>
-        
+         <li class="nav-item">
+          <a class="nav-link" href="{% url 'user_logout' %}">Sign out</a>
+        </li>
         </li>
       </ul>
       <form class="d-flex">
